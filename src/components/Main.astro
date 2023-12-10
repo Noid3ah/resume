@@ -1,0 +1,141 @@
+<section class="main__content">
+  <section class="summary">
+    <div class="heading">
+      <h3>Summary</h3>
+    </div>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolores veritatis rem</p>
+      </div>
+  </section>
+  <section class="Experience">
+    <div class="heading">
+      <h3>Experience</h3>
+    </div>
+      <div class="content">
+        <div class="block">
+          <div class="row">
+            <h4>APPLICATIONS DEVELOPER</h4>
+            <span class="frame">2016 - Present</span>
+          </div>
+          <span class="note">Really Great Company</span>
+          <ul class="block__list">
+            <li>Database administration and website design</li>
+            <li>Built the logic for a streamlined ad-serving platform that scaled</li>
+            <li>Educational institutions and online classroom management</li>
+          </ul>
+        </div>
+        <div class="block">
+          <div class="row">
+            <h4>WEB CONTENT MANAGER</h4>
+            <span class="frame">2014 - 2016</span>
+          </div>
+          <span class="note">Really Great Company</span>
+          <ul class="block__list">
+            <li>Database administration and website design</li>
+            <li>Built the logic for a streamlined ad-serving platform that scaled</li>
+            <li>Educational institutions and online classroom management</li>
+          </ul>
+        </div>
+        <div class="block">
+          <div class="row">
+            <h4>ANALYSIS CONTENT</h4>
+            <span class="frame">2010 - 2014</span>
+          </div>
+          <span class="note">Really Great Company</span>
+          <ul class="block__list">
+            <li>Database administration and website design</li>
+            <li>Built the logic for a streamlined ad-serving platform that scaled</li>
+            <li>Educational institutions and online classroom management</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+  
+</section>
+
+<style>
+  .main__content {
+    position: relative;
+    padding-inline-start: calc(var(--pad) + .8rem);
+    padding-inline-end: calc(var(--pad) - .6rem);
+    padding-block-start: 3rem;
+
+    section + section {
+      margin-top: 4.2rem;
+    }
+
+    .heading {
+      color: var(--clr-accent);
+      font-family: var(--ff-sofia);
+      margin-bottom: 1rem;
+
+      h3 {
+        text-transform: uppercase;
+        letter-spacing: .15rem;
+        font-weight: 700;
+        margin-bottom: var(--mbottom-header3);
+        font-size: var(--header-3);
+      }
+    }
+
+    .content p {
+      line-height: 1.5;
+      color: var(--clr-gray-text);
+      font-family: var(--ff-mont);
+    }
+
+    .content {
+      .block + .block {
+        margin-top: 3rem;
+      }
+
+      .block {
+        --space: .5rem;
+        display: flex;
+        flex-direction: column;
+
+        .row {
+          display: flex;
+          align-items: center;
+          margin-bottom: var(--space);
+          justify-content: space-between;
+        }
+
+        h4, .frame {
+          font-size: var(--header-4);
+          font-weight: 700;
+          font-family: var(--ff-raleway);
+          letter-spacing: .1rem;
+        }
+
+        .frame {
+          font-family: var(--ff-lato);
+          margin-top: -.2rem;
+          margin-left: 1rem;
+        }
+
+        .note {
+          color: var(--clr-gray-text);
+          font-family: var(--ff-raleway);
+          font-size: var(--header-4);
+        }
+
+        .block__list {
+          list-style-position: inside;
+          padding-left: .5rem;
+          display: flex;
+          flex-direction: column;
+          gap: .3rem;
+          margin-top: 1rem;
+
+          li {
+            font-size: var(--list);
+            font-family: var(--ff-mont);
+            color: var(--clr-gray-text);
+        }
+      }
+    }
+  }
+
+  }
+</style>

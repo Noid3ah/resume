@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Ephesis&family=Lato:wght@400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Ms+Madi&family=Qwitcher+Grypen:wght@400;700&family=Afacad:wght@400;500;600;700&family=Allura&family=The+Nautigal:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+  --clr-secondary: hsl(11, 33%, 94%);
+  --clr-secondary: hsl(39, 74%, 94%);
+  --clr-secondary: hsl(196, 26%, 94%);
+  --clr-primary: hsl(0, 0%, 100%);
+  --clr-dark: hsl(0, 0%, 7%);
+  --clr-accent: hsl(39, 68%, 40%);
+  --clr-accent: hsl(196, 68%, 40%);
+  --clr-text: hsl(210, 7%, 24%);
+  // --clr-text: hsl(0, 0%, 17%);
+  --clr-light-text: hsl(0, 0%, 50%);
+  --clr-gray-text: hsl(210, 5%, 29%);
+  --clr-blue-text: hsl(196, 68%, 40%);
+  --ff-primary: "EB Garamond", serif;
+  --ff-secondary: "Helvetica", sans-serif;
+  --ff-pop: "Poppins", sans-serif;
+  --ff-lato: "Lato", sans-serif;
+  --ff-stylish: "Caveat", cursive;
+  --ff-stylish2: "Ephesis", cursive;
+  --ff-stylish3: "Ms Madi", cursive;
+  --ff-stylish4: "Allison", cursive;
+  --ff-stylish5: "Qwitcher Grypen", cursive;
+  --ff-stylish6: "The Nautigal", cursive;
+  --ff-stylish7: "Allura", cursive;
+  --ff-mont: "Montserrat", sans-serif;
+  --ff-raleway: "Raleway", sans-serif;
+  --ff-sofia: "Sofia Pro", sans-serif;
+  --pad: 1rem;
+  --list: 0.95rem;
+  --header-4: 1rem;
+  --header-3: 1.4rem;
+  --header-2: 1.8rem;
+  --header-1: 3rem;
+  --mbottom-header3: 2rem;
+}
+
+.filled {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #111;
+  font-family: var(--ff-secondary);
+  color: var(--clr-text);
+}

@@ -1,0 +1,50 @@
+---
+// import '../styles/global.css'
+---
+
+<section class="hero">
+  <h1>Oshane Peddie</h1>
+  <span class="title">Web developer</span>
+  <div class="graphic">oP</div>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    isolation: isolate;
+    text-align: center;
+    padding-block: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    width: 100%;
+
+    h1 {
+      font-size: var(--header-1);
+      font-family: var(--ff-sofia);
+      letter-spacing: .5rem;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+
+    .title {
+      font-size: 1.2rem;
+      font-family: var(--ff-raleway);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .4rem;
+    }
+
+    .graphic {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -40%);
+      font-size: 15rem;
+      font-family: var(--ff-stylish7);
+      font-weight: 700;
+      color: var(--clr-secondary);
+      z-index: -1;
+    }
+  }
+</style>

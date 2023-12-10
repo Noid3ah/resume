@@ -1,0 +1,146 @@
+---
+// import the Image component and the image
+import { Image } from 'astro:assets';
+import myImage from "../images/resume-photo.png";
+---
+<aside class="">
+  <section class="contact">
+    <h3>Contact</h3>
+    <ul class="contact__list">
+      <li>
+        <span class="material-symbols-outlined filled">
+          call
+          </span>
+        <span>(876) 224-334</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined filled">
+          mail
+          </span>
+        <span>mail@mail.com</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined filled">
+          location_on
+          </span>
+        <span>193<sup>1/2</sup>  Constant Spring rd</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="skills">
+    <h3>Skills</h3>
+    <ul class="skills__list">
+      <li>Web Design</li>
+      <li>Design Thinking</li>
+      <li>Wireframe Creation</li>
+      <li>Front End Coding</li>
+      <li>Problem-Solving</li>
+      <li>Computer Literacy</li>
+      <li>Project Management Tools</li>
+      <li>Strong Communication</li>
+    </ul>
+  </section>
+
+  <section class="education">
+      <h3>Education</h3>
+      <ul class="education__list">
+        <li class="block">
+          <h4>MASTER OF IT, MAJOR IN TECHNOLOGY</h4>
+          <span class="note">Really Great High School</span>
+          <span class="frame">2014 - 2016</span>
+        </li>
+        <li class="block">
+          <h4>Oberlin high school</h4>
+          <span class="note">Really Great University</span>
+          <span class="frame">2013 - 2014</span>
+        </li>
+      </ul>
+  </section>
+
+  
+
+</aside>
+
+<style>
+  aside {
+    background-color: var(--clr-secondary);
+    color: var(--clr-text);
+    position: relative;
+    padding-inline: 2rem;
+    padding-block-start: 3rem;
+    /* max-width: 200px; */
+
+    section + section {
+      margin-top: 4.2rem;
+    }
+
+    li {
+      color: var(--clr-light-text);
+      font-size: var(--list);
+      font-family: var(--ff-lato);
+    }
+
+    h3 {
+      font-family: var(--ff-sofia);
+      text-transform: uppercase;
+      letter-spacing: .15rem;
+      font-weight: 700;
+      margin-bottom: var(--mbottom-header3);
+      font-size: var(--header-3);
+    }
+
+    .contact {
+      .contact__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: .7rem;
+  
+        li {
+          display: flex;
+          align-items: center;
+
+          span:first-child {
+            font-size: 1.4rem;
+            margin-right: 1.5rem;
+            color: var(--clr-blue-text);
+          }
+        }
+      }
+    }
+
+    .education {
+      .education__list {
+        list-style: none;
+        display:flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .block {
+          display: flex;
+          flex-direction: column;
+          gap: .5rem;
+        }
+
+        h4 {
+          color: var(--clr-text);
+          text-transform: uppercase;
+        }
+
+      }
+    }
+
+    .skills {
+      .skills__list {
+        list-style: disc;
+        list-style-position: inside;
+        display: flex;
+        flex-direction: column;
+        gap: .7rem;
+      
+      }
+    }
+
+  }
+</style>
