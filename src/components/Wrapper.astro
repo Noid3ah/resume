@@ -13,8 +13,12 @@ import Main from "./Main.astro";
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1.6fr;
+    grid-template-columns: 1fr;
     padding-inline: calc(var(--pad) + 1rem);
     padding-block-end: 2rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1.6fr;
+    }
   }
 </style>

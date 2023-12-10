@@ -17,17 +17,16 @@ img {
 }
 
 :root {
-  --clr-secondary: hsl(11, 33%, 94%);
-  --clr-secondary: hsl(39, 74%, 94%);
   --clr-secondary: hsl(196, 26%, 94%);
+  --clr-secondary2: hsl(11, 33%, 94%);
+  --clr-secondary3: hsl(39, 74%, 94%);
   --clr-primary: hsl(0, 0%, 100%);
   --clr-dark: hsl(0, 0%, 7%);
-  --clr-accent: hsl(39, 68%, 40%);
-  --clr-accent: hsl(196, 68%, 40%);
+  --clr-accent: hsl(196, 68%, 35%);
+  --clr-accent2: hsl(39, 68%, 40%);
   --clr-text: hsl(210, 7%, 24%);
   --clr-light-text: hsl(0, 0%, 50%);
   --clr-gray-text: hsl(210, 5%, 29%);
-  --clr-blue-text: hsl(196, 68%, 40%);
   --ff-primary: "EB Garamond", serif;
   --ff-secondary: "Helvetica", sans-serif;
   --ff-pop: "Poppins", sans-serif;
