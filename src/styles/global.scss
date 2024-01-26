@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Ephesis&family=Lato:wght@400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Allison&family=Ms+Madi&family=Qwitcher+Grypen:wght@400;700&family=Afacad:wght@400;500;600;700&family=Allura&family=The+Nautigal:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Ephesis&family=Lato:wght@400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Ms+Madi&family=Qwitcher+Grypen:wght@400;700&family=Afacad:wght@400;500;600;700&family=Allura&family=The+Nautigal:wght@400;700&display=swap');
 
 *,
 *::before,
@@ -28,31 +28,31 @@ img {
   --clr-text: hsl(210, 7%, 24%);
   --clr-light-text: hsl(0, 0%, 50%);
   --clr-gray-text: hsl(210, 5%, 29%);
-  --ff-primary: "EB Garamond", serif;
-  --ff-secondary: "Helvetica", sans-serif;
-  --ff-pop: "Poppins", sans-serif;
-  --ff-lato: "Lato", sans-serif;
-  --ff-stylish: "Caveat", cursive;
-  --ff-stylish2: "Ephesis", cursive;
-  --ff-stylish3: "Ms Madi", cursive;
-  --ff-stylish4: "Allison", cursive;
-  --ff-stylish5: "Qwitcher Grypen", cursive;
-  --ff-stylish6: "The Nautigal", cursive;
-  --ff-stylish7: "Allura", cursive;
-  --ff-mont: "Montserrat", sans-serif;
-  --ff-raleway: "Raleway", sans-serif;
-  --ff-sofia: "Sofia Pro", sans-serif;
+  --ff-primary: 'EB Garamond', serif;
+  --ff-secondary: 'Helvetica', sans-serif;
+  --ff-pop: 'Poppins', sans-serif;
+  --ff-lato: 'Lato', sans-serif;
+  --ff-stylish: 'Caveat', cursive;
+  --ff-stylish2: 'Ephesis', cursive;
+  --ff-stylish3: 'Ms Madi', cursive;
+  --ff-stylish4: 'Allison', cursive;
+  --ff-stylish5: 'Qwitcher Grypen', cursive;
+  --ff-stylish6: 'The Nautigal', cursive;
+  --ff-stylish7: 'Allura', cursive;
+  --ff-mont: 'Montserrat', sans-serif;
+  --ff-raleway: 'Raleway', sans-serif;
+  --ff-sofia: 'Sofia Pro', sans-serif;
   --pad: 1rem;
   --list: 0.95rem;
   --header-4: 1rem;
   --header-3: 1.4rem;
   --header-2: 1.8rem;
   --header-1: 3rem;
-  --mbottom-header3: 2rem;
+  --mbottom-header3: 1rem;
 }
 
 .filled {
-  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
 
 body {
